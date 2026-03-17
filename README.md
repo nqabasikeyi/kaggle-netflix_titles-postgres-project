@@ -14,48 +14,6 @@ The goal of this project is to transform raw Netflix data into a structured rela
 
 Raw CSV → Data Cleaning → Data Normalization → PostgreSQL → SQL Analysis
 
-
----
-
-## 📂 Project Structure
-
-
-kaggle-netflix_titles-postgres-project/
-│
-├── data/
-│ ├── raw/
-│ │ └── netflix_titles.csv
-│ ├── cleaned/
-│ │ └── netflix_titles_cleaned.csv
-│ └── normalized/
-│ ├── shows.csv
-│ ├── directors.csv
-│ ├── actors.csv
-│ ├── countries.csv
-│ ├── genres.csv
-│ ├── show_directors.csv
-│ ├── show_actors.csv
-│ ├── show_countries.csv
-│ └── show_genres.csv
-│
-├── notebooks/
-│ └── explore.ipynb
-│
-├── etl/
-│ ├── extract.py
-│ ├── transform.py
-│ ├── normalize_data.py
-│ └── load_data.py
-│
-├── sql/
-│ ├── create_database.sql
-│ ├── create_tables.sql
-│ └── analysis_queries.sql
-│
-├── requirements.txt
-└── README.md
-
-
 ---
 
 ## ⚙️ Technologies Used
