@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 # PostgreSQL connection details
 username = "postgres"
-password = ""
+password = "" #my personal account password
 host = "localhost"
 port = "5432"
 database = "netflix_db" 
